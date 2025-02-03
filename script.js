@@ -29,6 +29,7 @@ function dodaj() {
 
     main.appendChild(todoItem);
 
+
     saveTasks();
 }
 
@@ -44,7 +45,7 @@ function check(checkbox) {
         item.style.backgroundColor = "black";
         item.style.textDecoration = "line-through";
     } else {
-        item.style.backgroundColor = "#503B80";
+        item.style.backgroundColor = "#7678FF";
         item.style.textDecoration = "none";
     }
     saveTasks();
@@ -103,8 +104,10 @@ function loadTasks() {
             todoItem.style.backgroundColor = "black";
             todoItem.style.textDecoration = "line-through";
         } else {
-            todoItem.style.backgroundColor = "#503B80";
+            todoItem.style.backgroundColor = "#7678FF";
             todoItem.style.textDecoration = "none";
         }
     });
 }
+
+
