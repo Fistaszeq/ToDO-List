@@ -97,3 +97,31 @@ input.todoText {
     height: 20px;
 }
 
+
+@media (max-width: 768px) {
+    main {
+        width: 90%;
+    }
+
+    #clock {
+        font-size: 300%;
+    }
+
+    button[onclick="dodaj();"], button[onclick="czystka();"] {
+        font-size: 80%;
+        padding: 0.3em;
+    }
+
+    .todoText {
+        font-size: 80%;
+    }
+
+    .deleteButton {
+        font-size: 80%;
+        padding: 3px 7px;
+    }
+
+    input.todoText {
+        font-size: 20px;
+    }
+}
